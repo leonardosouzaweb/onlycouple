@@ -162,6 +162,7 @@
                                 </li>
                                 <?php if( $profile->admin == 1 || $profile->permission !== '' ){ ?>
 								<li class="divider" tabindex="-1"></li>
+                                222
                                 <li>
                                     <a href="<?php echo $site_url;?>/admin-cp" class="waves-effect"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg> <?php echo __( 'Admin Panel' );?></a>
                                 </li>
